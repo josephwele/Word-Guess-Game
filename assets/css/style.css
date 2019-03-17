@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+p{
+    color:white;
+    font-family: 'Yesteryear', cursive;
+    font-size: 1.5rem;
+    line-height: 1.3em;
+
+}
+.col-sm-2{
+    border:dashed 2px white;
+}
+#songTitle{
+    font-size: 2rem;
+    font-family: 'Yesteryear', cursive;
+    color: white;
+
+}
+.wordArt{
+    
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    color: #738904;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    
+}

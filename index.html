@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body style="background-color:black;">
+<div class="container">
+	<div class="row justify-content-center">
+	<div class="wordArt">HANG MAN</div>
+	</div>
+	<div id="songTitle"	class="row py-5 px-5 text-center justify-content-center"> 
+		
+	</div>
+	<div class="row text-center justify-content-center">
+		<div class="col-sm-2 py-4">
+				<img id="img"  class="img-fluid" src="assets\image\img1.jpg" alt="">
+		</div>
+		<div class="col-sm-2 py-4 ">
+				<p>press any key to get <br> started!</p>
+				<p>Wins</p>
+				<p id="winDisplay"></p>
+				<p>current word</p>
+				<p id="dash"></p>
+				<p>Number of guess remained: <br><span id="remained">13</span></p>
+				<p>letters already Guessed: <br><span id="guessed"></span></p>
+		</div>
+	</div>	
+	<div>
+		<audio id="Audio" src=""></audio>
+	</div>
+</div>
+<script src="assets\javascript\game.js"></script>
+</body>
+</html>
